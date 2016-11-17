@@ -1,5 +1,5 @@
 # Site settings
-title:       B l o g - F e d e r o v 
+title:       F e d e r o v 
 email:       federov@teknik.io
 author:      Federov
 description: "Cyber Security Enthusiast"
@@ -33,7 +33,7 @@ fb_page_id:
 
 # Disqus post comments
 # (leave blank to disable Disqus)
-disqus_shortname:
+disqus_shortname: feder0v
 
 # Facebook Comments plugin
 # (leave blank to disable Facebook Comments, otherwise set it to true)
