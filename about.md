@@ -5,8 +5,10 @@ permalink: /about/
 tags: about
 ---
 
-# Feder0v
+# Federov
 ---
 Addicted about Linux, Programming and Cyber Security.
+
 Send me Email at {{ site.email}}
+
 ---
