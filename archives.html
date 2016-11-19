@@ -1,0 +1,46 @@
+---
+layout: page
+title: Archives
+permalink: /archives/
+tags: archives
+---
+
+
+ 
+<div class="mdl-tabs mdl-js-tabs">
+
+    <div class="mdl-tabs__tab-bar">
+        <a href="#tab1" class="mdl-tabs__tab">by Date</a>
+        <a href="#tab2" class="mdl-tabs__tab">by Categories</a>
+        <a href="#tab3" class="mdl-tabs__tab">by Tag</a>
+    </div>
+
+    <div class="mdl-tabs__panel is-active" id="tab1">
+        <section class="archive-post-list">
+
+   {% for post in site.posts %}
+       {% assign currentDate = post.date | date: "%Y" %}
+       {% if currentDate != myDate %}
+           {% unless forloop.first %}</ul>{% endunless %}
+           <h3>{{ currentDate }}</h3>
+           <ul>
+           {% assign myDate = currentDate %}
+       {% endif %}
+       <li><a href="{{ post.url }}"><span>{{ post.date | date: "%B %-d" }}</span> - {{ post.title }}</a></li>
+       {% if forloop.last %}</ul>{% endif %}
+   {% endfor %}
+
+</section>
+ 
+    </div>
+    <div class="mdl-tabs__panel" id="tab2">
+        <p>on progress .....</p>
+    </div>
+    <div class="mdl-tabs__panel" id="tab3">
+        <p>on progress .....</p>
+    </div>
+
+</div>
+
+<link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.indigo-pink.min.css">
+<script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
