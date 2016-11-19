@@ -4,8 +4,7 @@ title: Archives
 permalink: /archives/
 tags: archives
 ---
-
- <section class="archive-post-list">
+        <section class="archive-post-list">
 
    {% for post in site.posts %}
        {% assign currentDate = post.date | date: "%Y" %}
@@ -21,3 +20,4 @@ tags: archives
 
 </section>
  
+  
