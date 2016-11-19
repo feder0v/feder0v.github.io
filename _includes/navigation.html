@@ -3,8 +3,15 @@
         <a href="{{ page.url }}">{{ page.title }}</a>
     {% endif %}
 {% endfor %}
+
 {% for page in site.pages %}
     {% if page.tags contains "archives" %}
+        <a href="{{ page.url }}">{{ page.title }}</a>
+    {% endif %}
+{% endfor %}
+
+{% for page in site.pages %}
+    {% if page.tags contains "categories" %}
         <a href="{{ page.url }}">{{ page.title }}</a>
     {% endif %}
 {% endfor %}

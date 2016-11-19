@@ -2,6 +2,7 @@
 
 ## Disclaimer
 1.All of blog posts is copyright of this blog owner
+
 2. Please contact me if you want to repost the posts from this website
 
 #### Themes Source 
