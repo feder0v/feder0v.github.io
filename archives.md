@@ -12,7 +12,7 @@ tags: archives
        {% assign currentDate = post.date | date: "%Y" %}
        {% if currentDate != myDate %}
            {% unless forloop.first %}</ul>{% endunless %}
-           <h3>{{ currentDate }}</h3>>
+           <h3>{{ currentDate }}</h3>
            <ul>
            {% assign myDate = currentDate %}
        {% endif %}
