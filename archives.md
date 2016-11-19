@@ -5,7 +5,6 @@ permalink: /archives/
 tags: archives
 ---
 
-
  <section class="archive-post-list">
 
    {% for post in site.posts %}
@@ -21,3 +20,4 @@ tags: archives
    {% endfor %}
 
 </section>
+ 
