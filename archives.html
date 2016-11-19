@@ -4,9 +4,17 @@ title: Archives
 permalink: /archives/
 tags: archives
 ---
- 
- 
- <section class="archive-post-list">
+
+<div class="mdl-tabs mdl-js-tabs">
+
+    <div class="mdl-tabs__tab-bar">
+        <a href="#tab1" class="mdl-tabs__tab">by Date</a>
+        <a href="#tab2" class="mdl-tabs__tab">by Categories</a>
+        <a href="#tab3" class="mdl-tabs__tab">by Tag</a>
+    </div>
+
+    <div class="mdl-tabs__panel is-active" id="tab1">
+        <section class="archive-post-list">
 
    {% for post in site.posts %}
        {% assign currentDate = post.date | date: "%Y" %}
@@ -22,3 +30,12 @@ tags: archives
 
 </section>
  
+    </div>
+    <div class="mdl-tabs__panel" id="tab2">
+        <p>on progress .....</p>
+    </div>
+    <div class="mdl-tabs__panel" id="tab3">
+        <p>on progress .....</p>
+    </div>
+
+</div>
