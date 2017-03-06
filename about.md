@@ -14,7 +14,7 @@ Addicted about Linux, Programming and Cyber Security.
 ### Contact
 Email : {{ site.email}}
 
-Twitter : [0xfeder0v](https://twitter.com/0xfeder0v)
+Twitter : [0xfeder0v](<a https://twitter.com/0xfeder0v target="_blank"<a></a>)
 
-Github : [Feder0v](https://github.com/feder0v)
+Github : [Feder0v](<a https://github.com/feder0v target="_blank"<a></a>)
 
