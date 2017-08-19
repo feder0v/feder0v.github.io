@@ -17,5 +17,7 @@ Email : {{ site.email}}
 
 Twitter : <a href="https://twitter.com/0xfeder0v" target="_blank">0xfeder0v</a>
 
+Telegram : <a href="https://telegram.me/@feder0v" target="_blank">feder0v</a>
+
 Github : <a href="https://github.com/feder0v" target="_blank">Feder0v</a>
 
