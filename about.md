@@ -10,7 +10,6 @@ tags: about
 ---
 >The name Fedorov is a patronymic surname formed by adding one of the many Russian suffixes, such as "-ov" and "-ovic" to the personal name **Feder**. The name most likely comes from the Russian "feodor," meaning **"God's gift."**
 
-Addicted about Linux, Programming and Cyber Security.
 
 ### Contact
 Email : {{ site.email}}
